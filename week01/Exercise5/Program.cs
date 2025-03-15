@@ -1,5 +1,4 @@
 using System;
-
 class Program
 {
     static void Main(string[] args)
@@ -13,17 +12,14 @@ class Program
 
         DisplayResult(userName, squaredNumber);
     }
-
     static void DisplayWelcomeMessage()
     {
         Console.WriteLine("Welcome to the program!");
     }
-
     static string PromptUserName()
     {
         Console.Write("Please enter your name: ");
         string name = Console.ReadLine();
-
         return name;
     }
 
@@ -31,7 +27,6 @@ class Program
     {
         Console.Write("Please enter your favorite number: ");
         int number = int.Parse(Console.ReadLine());
-
         return number;
     }
 
